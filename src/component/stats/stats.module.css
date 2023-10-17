@@ -1,0 +1,71 @@
+.section {
+  width: 620px;
+  margin: 0 auto;
+  transform: translateY(-80px);
+  padding: 30px 50px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.133);
+}
+.list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.listItem {
+  margin-right: 40px;
+}
+
+.listItem p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.425);
+}
+
+.listItem h3 {
+  font-size: 25px;
+}
+
+.listItem:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.425);
+  border-right: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 0 30px;
+}
+
+.progress {
+  background-color: rgba(0, 0, 0, 0.225);
+  height: 15px;
+  border-radius: 40px;
+  margin-top: 30px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 70%;
+  height: 15px;
+  background-color: rgb(26, 150, 150);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: 40px;
+}
+@media screen and (max-width: 760px) {
+  .section {
+    width: 400px;
+  }
+  .list {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .listItem {
+    margin-top: 20px;
+  }
+  .listItem:nth-child(2) {
+    border-left: none;
+    border-right: none;
+  }
+}

@@ -1,0 +1,73 @@
+.bookmark {
+  width: 620px;
+  margin: 0 auto;
+  transform: translateY(-100px);
+}
+
+.section {
+  padding: 30px 50px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.133);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.common {
+  margin: 15px 0;
+  text-align: center;
+}
+.common2 {
+  margin: 15px 0;
+  text-align: center;
+  color: rgb(150, 151, 151);
+  font-size: 15px;
+}
+.aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.master {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 52%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+.Book {
+  background-color: rgb(220, 235, 229);
+  border: 10px solid rgb(220, 235, 229);
+  width: 150px;
+  margin: -3rem 1rem;
+}
+
+h2 {
+  border-radius: 20px;
+  margin: 1px 2rem;
+}
+.click {
+  /* color: rgb(7, 165, 170); */
+  font-size: 25px;
+  padding: 1px;
+}
+
+.click::after {
+  content: "";
+  height: 20px;
+  background-color: gray;
+}
+@media screen and (max-width: 760px) {
+  .bookmark {
+    width: 400px;
+  }
+  .Book {
+    display: none;
+  }
+  svg {
+    position: absolute;
+    margin: -24px -34px;
+  }
+}

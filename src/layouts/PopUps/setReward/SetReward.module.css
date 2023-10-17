@@ -1,0 +1,28 @@
+.reward {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 2rem;
+  width: 20rem;
+  z-index: 12;
+  position: fixed;
+  top: 140px;
+  left: calc(50% - 9.5rem);
+  text-align: center;
+}
+.reward h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.reward p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(117, 117, 115);
+}
+button {
+  margin-top: 10px;
+  background: rgb(4, 176, 189);
+  border: 10px solid rgb(4, 176, 189);
+  border-radius: 20px;
+  font-size: 13px;
+}
