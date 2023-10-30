@@ -9,7 +9,8 @@
 
 .primary {
   background-color: rgb(26, 150, 150);
-  color: white;
+  color: #fff;
+  
 }
 .primary:hover {
   background-color: rgb(3, 102, 102);
@@ -32,6 +33,11 @@ svg {
 
 @media screen and (max-width: 760px) {
   .secondary{
-    display: none;
+    width: 10px ;
+    color: #fff;
+    background-color: #fff;
   }
+  .book{
+    margin-top: -19px; 
+  } 
 }

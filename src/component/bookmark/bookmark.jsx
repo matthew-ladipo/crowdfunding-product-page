@@ -38,17 +38,14 @@ const Bookmark = ({ svgBook }) => {
               onClick={() => {
                 setBookmark("Bookmarked");
               }}
-
             >
-              <Button text={Book} bg={"secondary"} svgBook={'true'} />
+              <Button text={Book} bg={"secondary"} svgBook={"true"} />
               <div
               // style={{
               //   color: Book === "Bookmarked" ? "green" : Book === "Bookmark",
               //   color: Book === "Bookmarked" ? "white" : Book === "Bookmark",
               // }}
-              >
-               
-              </div>
+              ></div>
             </div>
           </aside>
         </section>
