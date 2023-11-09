@@ -3,6 +3,7 @@ import style from "./About.module.css";
 import BackDropTwo from "../../layouts/BackDropTwo";
 import SetReward from "../../layouts/PopUps/setReward/SetReward";
 import Button from "../button/button";
+import { DisabledByDefault } from "@mui/icons-material";
 
 const About = ({ text, bg }) => {
   const stats = [
@@ -30,7 +31,7 @@ const About = ({ text, bg }) => {
 
       price: "plegde $25 or more",
       time: "0",
-      button: <Button text={"Out Of Stock"} bg={"nursery"} />,
+      button: <Button text={"Out Of Stock"} bg={"nursery"} action='DisabledByDefault' />,
       left: "left",
       paragraph:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae eos delectus provident, corporis eius aperiam est dolorum nisi iure tenetur quidem.",

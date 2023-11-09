@@ -6,37 +6,36 @@ const BackProject = (props) => {
   const radio = [
     {
       headLeft: "Pledge with no reward",
-      price: "plegde $25 or more",
+      // price: "plegde $25 or more",
       paragraph:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae eos delectus .",
     },
     {
-      headLeft: "Black Edition Stand   ",
+      headLeft: "Black Edition Stand",
 
       price: "plegde $25 or more",
       time: "101",
       left: "left",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae eos delectus .",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae.",
     },
     {
-      headLeft: "Mahogany Special Edition  ",
+      headLeft: "Mahogany Special Edition",
 
       price: "plegde $25 or more",
       time: "64",
       left: "left",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae eos delectus .",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae.",
     },
 
     {
-      headLeft: "Mahogany Special Edition  ",
-
+      headLeft: "Mahogany Special Edition",
       price: "plegde $25 or more",
       time: "0",
       left: "left",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae eos delectus .",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet atque natus inventore molestiae.",
     },
   ];
 

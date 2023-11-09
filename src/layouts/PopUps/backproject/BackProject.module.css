@@ -1,13 +1,19 @@
 .times {
   display: flex;
   justify-content: space-between;
+  
+}
+.fatimes{
+  margin: 20px -25px;
+  margin-left: 5px;
+  position: relative;
 }
 .final {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   background-color: #fff;
   padding: 2rem;
-  width: 32rem;
+  width: 30rem;
   z-index: 11;
   position: fixed;
   top: 30px;
@@ -16,7 +22,7 @@
 .lis {
   display: flex;
   height: 90px;
-  width: 440px;
+  width: 400px;
   background-color: white;
   border-radius: 6px;
   border: 1px solid rgb(202, 198, 198);
@@ -93,7 +99,8 @@ section {
     height: 110px;
   }
   .fatimes {
-    margin-top: 1.5rem;
+    margin-top: 33px;
+    /* margin: 5px 0; */
   }
   .heads {
     display: grid;

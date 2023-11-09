@@ -21,6 +21,7 @@
 }
 .lis:nth-child(3) {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .contents {

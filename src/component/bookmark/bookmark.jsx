@@ -4,7 +4,7 @@ import styles from "./bookmark.module.css";
 import svg from "../../image/logo-mastercraft.svg";
 import BcakDrop from "../../layouts/BcakDrop";
 import BackProject from "../../layouts/PopUps/backproject/BackProject";
-import { BsBookmarkFill } from "react-icons/bs";
+
 
 const Bookmark = ({ svgBook }) => {
   const [showPopup, setShowpopup] = useState(false);
@@ -41,10 +41,7 @@ const Bookmark = ({ svgBook }) => {
             >
               <Button text={Book} bg={"secondary"} svgBook={"true"} />
               <div
-              // style={{
-              //   color: Book === "Bookmarked" ? "green" : Book === "Bookmark",
-              //   color: Book === "Bookmarked" ? "white" : Book === "Bookmark",
-              // }}
+              
               ></div>
             </div>
           </aside>
