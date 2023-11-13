@@ -61,7 +61,7 @@ h2 {
 }
 @media screen and (max-width: 760px) {
   .bookmark {
-    width: 400px;
+    width: 500px;
   }
   .Book {
     display: none;
@@ -69,5 +69,10 @@ h2 {
   svg {
     position: absolute;
     margin: -24px -34px;
+  }
+}
+@media screen and (max-width: 530px){
+  .bookmark {
+    width: 345px;
   }
 }

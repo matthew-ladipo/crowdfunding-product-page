@@ -48,10 +48,15 @@
 }
 @media screen and (max-width: 760px) {
   .contain {
-    width: 400px;
+    width: 500px;
   }
   .heads,
   .tail {
     display: grid;
+  }
+}
+@media screen and (max-width: 530px){
+  .contain{
+    width: 345px;
   }
 }

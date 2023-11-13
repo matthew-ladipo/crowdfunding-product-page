@@ -53,20 +53,23 @@ const BackProject = (props) => {
           Lorem ipsum dolor amet consectetur adipisicing .
         </p>
         {radio.map((stat, index) => (
-          <li className={style.lis}>
-            <input type="checkbox" />
-            <div className={style.contents}>
-              <div className={style.heads}>
-                <p className={style.head}>
-                  {stat.headLeft} <span>{stat.price}</span>
-                </p>
-                <div>
-                  {stat.time} <small>{stat.left}</small>
+          <div>
+            <label className={style.lis}>
+              <input type="checkbox" />
+              <div className={style.contents}>
+                <br />
+                <div className={style.heads}>
+                  <p className={style.head}>
+                    {stat.headLeft} <span>{stat.price}</span>
+                  </p>
+                  <div>
+                    {stat.time} <small>{stat.left}</small>
+                  </div>
                 </div>
+                <h6 className={style.paragraph}>{stat.paragraph}</h6>
               </div>
-              <h6 className={style.paragraph}>{stat.paragraph}</h6>
-            </div>
-          </li>
+            </label>
+          </div>
         ))}
       </ul>
     </div>

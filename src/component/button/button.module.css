@@ -28,7 +28,7 @@
 svg {
   color: rgb(4, 117, 117);
   position: absolute;
-  margin: -17px -55px;
+  margin: -19px -55px;
 }
 
 @media screen and (max-width: 760px) {

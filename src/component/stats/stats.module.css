@@ -54,7 +54,7 @@
 }
 @media screen and (max-width: 760px) {
   .section {
-    width: 400px;
+    width: 500px;
   }
   .list {
     display: grid;
@@ -67,5 +67,10 @@
   .listItem:nth-child(2) {
     border-left: none;
     border-right: none;
+  }
+}
+@media screen and (max-width: 530px){
+  .section {
+    width: 345px;
   }
 }

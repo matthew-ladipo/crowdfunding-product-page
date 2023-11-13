@@ -14,8 +14,9 @@
   background-color: #fff;
   padding: 2rem;
   width: 30rem;
-  z-index: 11;
   position: fixed;
+  z-index: 11;
+ 
   top: 30px;
   left: calc(50% - 15rem);
 }
@@ -28,6 +29,10 @@
   border: 1px solid rgb(202, 198, 198);
   list-style: none;
   margin-bottom: 20px;
+}
+.lis input{
+  font-size: 20px;
+ 
 }
 .lis:nth-child(6) {
   opacity: 0.4;
@@ -81,19 +86,21 @@ section {
 
 @media screen and (max-width: 760px) {
   .final {
-    width: 20rem;
-    height: 100%;
-    top: 0;
-    padding: 1rem;
+    width: 21rem;
+    height: 500px;
+    border-radius: 10px;
+    overflow: scroll;
     justify-content: center;
     align-items: center;
-    left: calc(50% - 10rem);
+    position: fixed;
+    left: calc(50% - 10.4rem);
   }
   .lis {
-    margin-left: 1.5rem;
-    margin-bottom: 7px;
-    width: 230px;
-    height: 135px;
+    /* margin-left: 0.2rem; */
+    margin-bottom: 25px;
+    width: 270px;
+    height: 165px;
+    top: 0;
   }
   .lis:nth-child(3) {
     height: 110px;
@@ -104,13 +111,19 @@ section {
   }
   .heads {
     display: grid;
+    margin-bottom: 15px;
   }
   .heads div {
     top: 4rem;
     position: relative;
   }
+  input{
+    margin-bottom: 90px;
+  }
   .contents .paragraph {
-    bottom: 9px;
+    bottom: 11px;
+    font-weight: 540;
     position: relative;
+    font-size: 12px;
   }
 }

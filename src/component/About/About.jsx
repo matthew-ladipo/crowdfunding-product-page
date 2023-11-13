@@ -3,7 +3,7 @@ import style from "./About.module.css";
 import BackDropTwo from "../../layouts/BackDropTwo";
 import SetReward from "../../layouts/PopUps/setReward/SetReward";
 import Button from "../button/button";
-import { DisabledByDefault } from "@mui/icons-material";
+
 
 const About = ({ text, bg }) => {
   const stats = [

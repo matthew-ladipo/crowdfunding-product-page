@@ -17,8 +17,7 @@ const Bookmark = ({ svgBook }) => {
   }
 
   const [Book, setBookmark] = useState("Bookmark");
-
-  return (
+ return(
     <>
       <div className={styles.bookmark}>
         <section className={styles.section}>
