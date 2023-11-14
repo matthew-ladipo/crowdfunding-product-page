@@ -6,9 +6,9 @@ const Button = ({ text, bg, svgBook }) => {
   const [colorSwitch, setColorSwitch] = useState(false);
   
   function switchPlans() {
-    setColorSwitch(true);
+    setColorSwitch((prev) => !prev);
   }
-  // (prev) => !prev)
+  // 
   return (
     <button className={cls(styles.button, styles[bg])} onClick={switchPlans}>
       <p>

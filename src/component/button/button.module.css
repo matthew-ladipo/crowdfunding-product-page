@@ -33,7 +33,7 @@ svg {
 
 @media screen and (max-width: 760px) {
   .secondary{
-    width: 10px ;
+    width: 12px ;
     color: #fff;
     background-color: #fff;
   }

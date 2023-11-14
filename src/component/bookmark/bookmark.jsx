@@ -5,7 +5,6 @@ import svg from "../../image/logo-mastercraft.svg";
 import BcakDrop from "../../layouts/BcakDrop";
 import BackProject from "../../layouts/PopUps/backproject/BackProject";
 
-
 const Bookmark = ({ svgBook }) => {
   const [showPopup, setShowpopup] = useState(false);
 
@@ -17,7 +16,17 @@ const Bookmark = ({ svgBook }) => {
   }
 
   const [Book, setBookmark] = useState("Bookmark");
- return(
+
+  function changeWord() {
+    if (Book === "Bookmark") {
+      setBookmark("Bookmarked");
+    } else{
+        setBookmark("Bookmark");
+      }
+   
+  }
+
+  return (
     <>
       <div className={styles.bookmark}>
         <section className={styles.section}>
@@ -34,14 +43,10 @@ const Bookmark = ({ svgBook }) => {
               <Button text={"Back this project"} bg={"primary"} />
             </div>
             <div
-              onClick={() => {
-                setBookmark("Bookmarked");
-              }}
+              onClick={changeWord}
             >
               <Button text={Book} bg={"secondary"} svgBook={"true"} />
-              <div
-              
-              ></div>
+              <div></div>
             </div>
           </aside>
         </section>
