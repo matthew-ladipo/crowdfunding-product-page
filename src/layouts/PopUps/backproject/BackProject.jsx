@@ -62,7 +62,7 @@ const BackProject = (props) => {
                   <p className={style.head}>
                     {stat.headLeft} <span>{stat.price}</span>
                   </p>
-                  <div>
+                  <div >
                     {stat.time} <small>{stat.left}</small>
                   </div>
                 </div>

@@ -69,7 +69,7 @@ const About = ({ text, bg }) => {
         <br />
         <ul className={style.ul}>
           {stats.map((stat, index) => (
-            <li className={style.lis}>
+            <li className={style.lis} key={index}>
               <div className={style.contents}>
                 <div className={style.heads}>
                   <h3>{stat.headLeft}</h3>

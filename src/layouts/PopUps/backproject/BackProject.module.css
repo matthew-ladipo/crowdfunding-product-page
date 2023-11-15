@@ -60,7 +60,8 @@ section {
 }
 
 .contents {
-  padding: 10px;
+  margin: -16px 10px;
+  margin-bottom: 10px;
 }
 .head .paragraph {
   font-size: 12px;
@@ -99,7 +100,7 @@ section {
     /* margin-left: 0.2rem; */
     margin-bottom: 25px;
     width: 270px;
-    height: 165px;
+    height: 170px;
     top: 0;
   }
   .lis:nth-child(3) {
@@ -114,11 +115,14 @@ section {
     margin-bottom: 15px;
   }
   .heads div {
-    top: 4rem;
+    top: 4.7rem;
     position: relative;
   }
   input{
     margin-bottom: 90px;
+  }
+  .contents{
+    margin: 10px 12px;
   }
   .contents .paragraph {
     bottom: 11px;
