@@ -81,7 +81,7 @@ const About = ({ text, bg }) => {
                     {stat.time}
                     <span>left</span>
                   </h2>
-                  <p onClick={openReward}>{stat.button}</p>
+                  <p onClick={openReward} style={{ fontSize: '10px', fontWeight: 500 }}>{stat.button}</p>
                 </div>
               </div>
             </li>
