@@ -80,12 +80,10 @@
 @media screen and (max-width: 530px){
   .liss{
  width: 345px;
- left: -17px;
+ left: -1px;
   }
   .nav{
     width: 340px;
   }
-  .header{
-    width: 400px;
-  }
+  
 }
