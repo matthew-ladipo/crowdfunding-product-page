@@ -55,7 +55,7 @@ const BackProject = (props) => {
         {radio.map((stat, index) => (
           <div>
             <label className={style.lis}>
-              <input type="checkbox" />
+            <input type="checkbox" className={style.cyberpunk}/>
               <div className={style.contents}>
                 <br />
                 <div className={style.heads}>
@@ -77,3 +77,12 @@ const BackProject = (props) => {
 };
 
 export default BackProject;
+
+
+
+
+
+
+/* <label class="cyberpunk-checkbox-label">
+<input type="checkbox" class="cyberpunk-checkbox">
+Check me</label>*/
