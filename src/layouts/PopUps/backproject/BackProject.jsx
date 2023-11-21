@@ -53,22 +53,27 @@ const BackProject = (props) => {
           Lorem ipsum dolor amet consectetur adipisicing .
         </p>
         {radio.map((stat, index) => (
-          <div>
-            <label className={style.lis}>
-            <input type="checkbox" className={style.cyberpunk}/>
-              <div className={style.contents}>
+          <div className={style.radiobuttonscontainer}>
+            <div className={style.lis}>
+              <input
+                name="radio-group"
+                id="radio2"
+                type="radio"
+                className={style.cyberpunk}
+              />
+              <label className={style.contents}>
                 <br />
                 <div className={style.heads}>
                   <p className={style.head}>
                     {stat.headLeft} <span>{stat.price}</span>
                   </p>
-                  <div >
+                  <div>
                     {stat.time} <small>{stat.left}</small>
                   </div>
                 </div>
                 <h6 className={style.paragraph}>{stat.paragraph}</h6>
-              </div>
-            </label>
+              </label>
+            </div>
           </div>
         ))}
       </ul>
@@ -78,11 +83,3 @@ const BackProject = (props) => {
 
 export default BackProject;
 
-
-
-
-
-
-/* <label class="cyberpunk-checkbox-label">
-<input type="checkbox" class="cyberpunk-checkbox">
-Check me</label>*/
