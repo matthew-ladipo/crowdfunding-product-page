@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./BackProject.module.css";
 import { FaTimes } from "react-icons/fa";
+import Edit from "./Edit";
 
 const BackProject = (props) => {
   const radio = [
@@ -55,24 +56,27 @@ const BackProject = (props) => {
         {radio.map((stat, index) => (
           <div className={style.radiobuttonscontainer}>
             <div className={style.lis}>
-              <input
-                name="radio-group"
-                id="radio2"
-                type="radio"
-                className={style.cyberpunk}
-              />
-              <label className={style.contents}>
-                <br />
-                <div className={style.heads}>
-                  <p className={style.head}>
-                    {stat.headLeft} <span>{stat.price}</span>
-                  </p>
-                  <div>
-                    {stat.time} <small>{stat.left}</small>
+              <div style={{ display: 'flex' }}>
+                <input
+                  name="radio-group"
+                  id="radio2"
+                  type="radio"
+                  className={style.cyberpunk}
+                />
+                <label className={style.contents}>
+                  <br />
+                  <div className={style.heads}>
+                    <p className={style.head}>
+                      {stat.headLeft} <span>{stat.price}</span>
+                    </p>
+                    <div>
+                      {stat.time} <small>{stat.left}</small>
+                    </div>
                   </div>
-                </div>
-                <h6 className={style.paragraph}>{stat.paragraph}</h6>
-              </label>
+                  <h6 className={style.paragraph}>{stat.paragraph}</h6>
+                </label>
+              </div>
+              <Edit />
             </div>
           </div>
         ))}
@@ -82,4 +86,3 @@ const BackProject = (props) => {
 };
 
 export default BackProject;
-

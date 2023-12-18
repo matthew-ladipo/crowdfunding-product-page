@@ -19,10 +19,11 @@
   height: 540px;
   top: 60px;
   left: calc(50% - 15rem);
+  overflow: scroll;
 }
 .lis {
-  display: flex;
-  height: 90px;
+  display: grid;
+  height: 100%;
   width: 400px;
   background-color: white;
   border-radius: 6px;
@@ -188,8 +189,26 @@ section {
 
  
 
-
-
+/* Edit styles */
+.edit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btns{
+  background-color: #fff;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+.clicks{
+  display: flex;
+  
+}
+input{
+  width: 50px;
+  height: 20px;
+}
 @media screen and (max-width: 760px) {
   .final {
     width: 21rem;
